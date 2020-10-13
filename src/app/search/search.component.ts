@@ -19,6 +19,8 @@ export class SearchComponent implements OnInit {
   ];
     this.data.push({code:'004',name:'Sản phẩm 4',dvt:'cái',gia:7433 });
     this.original_data = $.extend(true, [], this.data);
+
+    
   } 
   public TimKiem() {
     if(this.ma_san_pham != null && this.ma_san_pham != '') {
